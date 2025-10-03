@@ -1,0 +1,37 @@
+16
+finish
+Path found: 
+[(1:1) NorthEast | Cost: 3, (2:2) NorthEast | Cost: 2, (3:3) NorthEast | Cost: 9, (4:4) NorthEast | Cost: 2, (5:5) NorthEast | Cost: 6, (6:6) NorthEast | Cost: 9, (7:7) NorthEast | Cost: 6, (8:8) NorthEast | Cost: 3]
+with total cost: 40
+paths left in the frontier: 907347
+ammount of nodes explored: 202672
+
+17
+finish
+Path found: 
+[(1:1) NorthEast | Cost: 3, (2:2) NorthEast | Cost: 7, (3:3) NorthEast | Cost: 2, (4:4) NorthEast | Cost: 5, (5:5) NorthEast | Cost: 1, (6:6) NorthEast | Cost: 5, (7:7) NorthEast | Cost: 8, (8:8) NorthEast | Cost: 7]
+with total cost: 38
+paths left in the frontier: 907347
+ammount of nodes explored: 202672
+
+18
+finish
+Path found: 
+[(1:1) NorthEast | Cost: 5, (2:2) NorthEast | Cost: 3, (3:3) NorthEast | Cost: 8, (4:4) NorthEast | Cost: 8, (5:5) NorthEast | Cost: 7, (6:6) NorthEast | Cost: 4, (7:7) NorthEast | Cost: 9, (8:8) NorthEast | Cost: 3]
+with total cost: 47
+paths left in the frontier: 907347
+ammount of nodes explored: 202672
+
+19
+Path found: 
+[(1:1) NorthEast | Cost: 6, (2:2) NorthEast | Cost: 5, (3:3) NorthEast | Cost: 1, (4:4) NorthEast | Cost: 6, (5:5) NorthEast | Cost: 9, (6:6) NorthEast | Cost: 1, (7:7) NorthEast | Cost: 8, (8:8) NorthEast | Cost: 5]
+with total cost: 41
+paths left in the frontier: 907347
+ammount of nodes explored: 202672
+
+20
+Path found: 
+[(1:1) NorthEast | Cost: 3, (2:2) NorthEast | Cost: 4, (3:3) NorthEast | Cost: 7, (4:4) NorthEast | Cost: 2, (5:5) NorthEast | Cost: 2, (6:6) NorthEast | Cost: 9, (7:7) NorthEast | Cost: 3, (8:8) NorthEast | Cost: 1]
+with total cost: 31
+paths left in the frontier: 907347
+ammount of nodes explored: 202672
