@@ -1,0 +1,235 @@
+Current: (0:0) North | Cost: 0
+Destination: (2:2) NOP | Cost: 0
+Map:
+  x|y: 0 1 2
+
+  0:   [92m5[0m 5 1
+  1:   1 4 4
+  2:   2 5 [91m6[0m
+
+Simulating path: 
+[(1:0) North | Cost: 1]
+
+Current path position: 
+Current: (1:0) North | Cost: 1
+Destination: (2:2) NOP | Cost: 0
+Map:
+  x|y: 0 1 2
+
+  0:   5 5 1
+  1:   [92m1[0m 4 4
+  2:   2 5 [91m6[0m
+
+
+new paths added to frontier: 
+[(5, [(1:0) North | Cost: 1, (2:0) North | Cost: 2]), (8, [(1:0) North | Cost: 1, (2:1) NorthEast | Cost: 6]), (9, [(1:0) North | Cost: 1, (1:1) East | Cost: 6]), (12, [(1:0) North | Cost: 1, (0:1) SouthEast | Cost: 8])]
+
+Simulating path: 
+[(1:0) North | Cost: 1, (2:0) North | Cost: 2]
+
+Current path position: 
+Current: (2:0) North | Cost: 3
+Destination: (2:2) NOP | Cost: 0
+Map:
+  x|y: 0 1 2
+
+  0:   5 5 1
+  1:   1 4 4
+  2:   [92m2[0m 5 [91m6[0m
+
+
+new paths added to frontier: 
+[(11, [(1:0) North | Cost: 1, (2:0) North | Cost: 2, (2:1) East | Cost: 7]), (12, [(1:0) North | Cost: 1, (2:0) North | Cost: 2, (1:1) SouthEast | Cost: 7])]
+
+Simulating path: 
+[(1:1) NorthEast | Cost: 5]
+
+Current path position: 
+Current: (1:1) NorthEast | Cost: 5
+Destination: (2:2) NOP | Cost: 0
+Map:
+  x|y: 0 1 2
+
+  0:   5 5 1
+  1:   1 [92m4[0m 4
+  2:   2 5 [91m6[0m
+
+
+new paths added to frontier: 
+[(12, [(1:1) NorthEast | Cost: 5, (2:1) North | Cost: 6]), (11, [(1:1) NorthEast | Cost: 5, (2:2) NorthEast | Cost: 6]), (11, [(1:1) NorthEast | Cost: 5, (1:2) East | Cost: 5]), (10, [(1:1) NorthEast | Cost: 5, (0:2) SouthEast | Cost: 3]), (16, [(1:1) NorthEast | Cost: 5, (0:1) South | Cost: 8]), (12, [(1:1) NorthEast | Cost: 5, (1:0) West | Cost: 4]), (11, [(1:1) NorthEast | Cost: 5, (2:0) NorthWest | Cost: 4])]
+
+Simulating path: 
+[(1:0) North | Cost: 1, (2:1) NorthEast | Cost: 6]
+
+Current path position: 
+Current: (2:1) NorthEast | Cost: 7
+Destination: (2:2) NOP | Cost: 0
+Map:
+  x|y: 0 1 2
+
+  0:   5 5 1
+  1:   1 4 4
+  2:   2 [92m5[0m [91m6[0m
+
+
+new paths added to frontier: 
+[(14, [(1:0) North | Cost: 1, (2:1) NorthEast | Cost: 6, (2:2) East | Cost: 7]), (14, [(1:0) North | Cost: 1, (2:1) NorthEast | Cost: 6, (1:2) SouthEast | Cost: 6]), (16, [(1:0) North | Cost: 1, (2:1) NorthEast | Cost: 6, (1:1) South | Cost: 7]), (14, [(1:0) North | Cost: 1, (2:1) NorthEast | Cost: 6, (2:0) West | Cost: 5])]
+
+Simulating path: 
+[(1:0) North | Cost: 1, (1:1) East | Cost: 6]
+
+Current path position: 
+Current: (1:1) East | Cost: 7
+Destination: (2:2) NOP | Cost: 0
+Map:
+  x|y: 0 1 2
+
+  0:   5 5 1
+  1:   1 [92m4[0m 4
+  2:   2 5 [91m6[0m
+
+
+new paths added to frontier: 
+[(15, [(1:0) North | Cost: 1, (1:1) East | Cost: 6, (2:1) North | Cost: 7]), (14, [(1:0) North | Cost: 1, (1:1) East | Cost: 6, (2:2) NorthEast | Cost: 7]), (12, [(1:0) North | Cost: 1, (1:1) East | Cost: 6, (1:2) East | Cost: 4]), (11, [(1:0) North | Cost: 1, (1:1) East | Cost: 6, (0:2) SouthEast | Cost: 2]), (17, [(1:0) North | Cost: 1, (1:1) East | Cost: 6, (0:1) South | Cost: 7]), (14, [(1:0) North | Cost: 1, (1:1) East | Cost: 6, (2:0) NorthWest | Cost: 5])]
+
+Simulating path: 
+[(1:1) NorthEast | Cost: 5, (0:2) SouthEast | Cost: 3]
+
+Current path position: 
+Current: (0:2) SouthEast | Cost: 8
+Destination: (2:2) NOP | Cost: 0
+Map:
+  x|y: 0 1 2
+
+  0:   5 5 [92m1[0m
+  1:   1 4 4
+  2:   2 5 [91m6[0m
+
+
+new paths added to frontier: 
+[(16, [(1:1) NorthEast | Cost: 5, (0:2) SouthEast | Cost: 3, (1:2) North | Cost: 7]), (19, [(1:1) NorthEast | Cost: 5, (0:2) SouthEast | Cost: 3, (0:1) West | Cost: 8])]
+
+Simulating path: 
+[(0:1) East | Cost: 7]
+
+Current path position: 
+Current: (0:1) East | Cost: 7
+Destination: (2:2) NOP | Cost: 0
+Map:
+  x|y: 0 1 2
+
+  0:   5 [92m5[0m 1
+  1:   1 4 4
+  2:   2 5 [91m6[0m
+
+
+new paths added to frontier: 
+[(15, [(0:1) East | Cost: 7, (1:1) North | Cost: 6]), (13, [(0:1) East | Cost: 7, (1:2) NorthEast | Cost: 5]), (10, [(0:1) East | Cost: 7, (0:2) East | Cost: 1]), (14, [(0:1) East | Cost: 7, (1:0) NorthWest | Cost: 4])]
+
+Simulating path: 
+[(0:1) East | Cost: 7, (0:2) East | Cost: 1]
+
+Current path position: 
+Current: (0:2) East | Cost: 8
+Destination: (2:2) NOP | Cost: 0
+Map:
+  x|y: 0 1 2
+
+  0:   5 5 [92m1[0m
+  1:   1 4 4
+  2:   2 5 [91m6[0m
+
+
+new paths added to frontier: 
+[(15, [(0:1) East | Cost: 7, (0:2) East | Cost: 1, (1:2) North | Cost: 6]), (17, [(0:1) East | Cost: 7, (0:2) East | Cost: 1, (1:1) NorthWest | Cost: 7])]
+
+Simulating path: 
+[(1:0) North | Cost: 1, (2:0) North | Cost: 2, (2:1) East | Cost: 7]
+
+Current path position: 
+Current: (2:1) East | Cost: 10
+Destination: (2:2) NOP | Cost: 0
+Map:
+  x|y: 0 1 2
+
+  0:   5 5 1
+  1:   1 4 4
+  2:   2 [92m5[0m [91m6[0m
+
+
+new paths added to frontier: 
+[(16, [(1:0) North | Cost: 1, (2:0) North | Cost: 2, (2:1) East | Cost: 7, (2:2) East | Cost: 6]), (16, [(1:0) North | Cost: 1, (2:0) North | Cost: 2, (2:1) East | Cost: 7, (1:2) SouthEast | Cost: 5]), (18, [(1:0) North | Cost: 1, (2:0) North | Cost: 2, (2:1) East | Cost: 7, (1:1) South | Cost: 6])]
+
+Simulating path: 
+[(1:0) North | Cost: 1, (1:1) East | Cost: 6, (0:2) SouthEast | Cost: 2]
+
+Current path position: 
+Current: (0:2) SouthEast | Cost: 9
+Destination: (2:2) NOP | Cost: 0
+Map:
+  x|y: 0 1 2
+
+  0:   5 5 [92m1[0m
+  1:   1 4 4
+  2:   2 5 [91m6[0m
+
+
+new paths added to frontier: 
+[(17, [(1:0) North | Cost: 1, (1:1) East | Cost: 6, (0:2) SouthEast | Cost: 2, (1:2) North | Cost: 7]), (20, [(1:0) North | Cost: 1, (1:1) East | Cost: 6, (0:2) SouthEast | Cost: 2, (0:1) West | Cost: 8])]
+
+Simulating path: 
+[(1:1) NorthEast | Cost: 5, (2:0) NorthWest | Cost: 4]
+
+Current path position: 
+Current: (2:0) NorthWest | Cost: 9
+Destination: (2:2) NOP | Cost: 0
+Map:
+  x|y: 0 1 2
+
+  0:   5 5 1
+  1:   1 4 4
+  2:   [92m2[0m 5 [91m6[0m
+
+
+new paths added to frontier: 
+[(18, [(1:1) NorthEast | Cost: 5, (2:0) NorthWest | Cost: 4, (2:1) East | Cost: 8]), (16, [(1:1) NorthEast | Cost: 5, (2:0) NorthWest | Cost: 4, (1:0) South | Cost: 4])]
+
+Simulating path: 
+[(1:1) NorthEast | Cost: 5, (1:2) East | Cost: 5]
+
+Current path position: 
+Current: (1:2) East | Cost: 10
+Destination: (2:2) NOP | Cost: 0
+Map:
+  x|y: 0 1 2
+
+  0:   5 5 1
+  1:   1 4 [92m4[0m
+  2:   2 5 [91m6[0m
+
+
+new paths added to frontier: 
+[(18, [(1:1) NorthEast | Cost: 5, (1:2) East | Cost: 5, (2:2) North | Cost: 8]), (15, [(1:1) NorthEast | Cost: 5, (1:2) East | Cost: 5, (0:2) South | Cost: 3]), (21, [(1:1) NorthEast | Cost: 5, (1:2) East | Cost: 5, (0:1) SouthWest | Cost: 8]), (19, [(1:1) NorthEast | Cost: 5, (1:2) East | Cost: 5, (2:1) NorthWest | Cost: 8])]
+
+Simulating path: 
+[(1:1) NorthEast | Cost: 5, (2:2) NorthEast | Cost: 6]
+
+Current path position: 
+Current: (2:2) NorthEast | Cost: 11
+Destination: (2:2) NOP | Cost: 0
+Map:
+  x|y: 0 1 2
+
+  0:   5 5 1
+  1:   1 4 4
+  2:   2 5 [92m6[0m
+
+
+finish
+Path found: 
+[(1:1) NorthEast | Cost: 5, (2:2) NorthEast | Cost: 6]
+with total cost: 11
+paths left in the frontier: 32
+Deepest depth explored: 3
+depth of final path: 2
+ammount of nodes explored: 13

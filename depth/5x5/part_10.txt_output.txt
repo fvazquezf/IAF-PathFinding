@@ -1,0 +1,472 @@
+Current: (0:0) North | Cost: 0
+Destination: (4:4) NOP | Cost: 0
+Map:
+  x|y: 0 1 2 3 4
+
+  0:   [92m8[0m 6 5 5 8
+  1:   8 1 9 8 7
+  2:   8 4 6 3 2
+  3:   4 8 4 1 6
+  4:   1 8 6 6 [91m4[0m
+
+Simulating path: 
+[(1:0) North | Cost: 8]
+
+Current path position: 
+Current: (1:0) North | Cost: 8
+Destination: (4:4) NOP | Cost: 0
+Map:
+  x|y: 0 1 2 3 4
+
+  0:   8 6 5 5 8
+  1:   [92m8[0m 1 9 8 7
+  2:   8 4 6 3 2
+  3:   4 8 4 1 6
+  4:   1 8 6 6 [91m4[0m
+
+
+new paths added to frontier: 
+[[(1:0) North | Cost: 8, (2:0) North | Cost: 8], [(1:0) North | Cost: 8, (2:1) NorthEast | Cost: 5], [(1:0) North | Cost: 8, (1:1) East | Cost: 3], [(1:0) North | Cost: 8, (0:1) SouthEast | Cost: 9]]
+
+Simulating path: 
+[(1:0) North | Cost: 8, (0:1) SouthEast | Cost: 9]
+
+Current path position: 
+Current: (0:1) SouthEast | Cost: 17
+Destination: (4:4) NOP | Cost: 0
+Map:
+  x|y: 0 1 2 3 4
+
+  0:   8 [92m6[0m 5 5 8
+  1:   8 1 9 8 7
+  2:   8 4 6 3 2
+  3:   4 8 4 1 6
+  4:   1 8 6 6 [91m4[0m
+
+
+new paths added to frontier: 
+[[(1:0) North | Cost: 8, (0:1) SouthEast | Cost: 9, (1:1) North | Cost: 4], [(1:0) North | Cost: 8, (0:1) SouthEast | Cost: 9, (1:2) NorthEast | Cost: 11], [(1:0) North | Cost: 8, (0:1) SouthEast | Cost: 9, (0:2) East | Cost: 6]]
+
+Simulating path: 
+[(1:0) North | Cost: 8, (0:1) SouthEast | Cost: 9, (0:2) East | Cost: 6]
+
+Current path position: 
+Current: (0:2) East | Cost: 23
+Destination: (4:4) NOP | Cost: 0
+Map:
+  x|y: 0 1 2 3 4
+
+  0:   8 6 [92m5[0m 5 8
+  1:   8 1 9 8 7
+  2:   8 4 6 3 2
+  3:   4 8 4 1 6
+  4:   1 8 6 6 [91m4[0m
+
+
+new paths added to frontier: 
+[[(1:0) North | Cost: 8, (0:1) SouthEast | Cost: 9, (0:2) East | Cost: 6, (1:2) North | Cost: 11], [(1:0) North | Cost: 8, (0:1) SouthEast | Cost: 9, (0:2) East | Cost: 6, (1:3) NorthEast | Cost: 9], [(1:0) North | Cost: 8, (0:1) SouthEast | Cost: 9, (0:2) East | Cost: 6, (0:3) East | Cost: 5], [(1:0) North | Cost: 8, (0:1) SouthEast | Cost: 9, (0:2) East | Cost: 6, (1:1) NorthWest | Cost: 4]]
+
+Simulating path: 
+[(1:0) North | Cost: 8, (0:1) SouthEast | Cost: 9, (0:2) East | Cost: 6, (1:1) NorthWest | Cost: 4]
+
+Current path position: 
+Current: (1:1) NorthWest | Cost: 27
+Destination: (4:4) NOP | Cost: 0
+Map:
+  x|y: 0 1 2 3 4
+
+  0:   8 6 5 5 8
+  1:   8 [92m1[0m 9 8 7
+  2:   8 4 6 3 2
+  3:   4 8 4 1 6
+  4:   1 8 6 6 [91m4[0m
+
+
+new paths added to frontier: 
+[[(1:0) North | Cost: 8, (0:1) SouthEast | Cost: 9, (0:2) East | Cost: 6, (1:1) NorthWest | Cost: 4, (2:1) North | Cost: 5], [(1:0) North | Cost: 8, (0:1) SouthEast | Cost: 9, (0:2) East | Cost: 6, (1:1) NorthWest | Cost: 4, (2:2) NorthEast | Cost: 8], [(1:0) North | Cost: 8, (0:1) SouthEast | Cost: 9, (0:2) East | Cost: 6, (1:1) NorthWest | Cost: 4, (1:2) East | Cost: 12], [(1:0) North | Cost: 8, (0:1) SouthEast | Cost: 9, (0:2) East | Cost: 6, (1:1) NorthWest | Cost: 4, (2:0) NorthWest | Cost: 8]]
+
+Simulating path: 
+[(1:0) North | Cost: 8, (0:1) SouthEast | Cost: 9, (0:2) East | Cost: 6, (1:1) NorthWest | Cost: 4, (2:0) NorthWest | Cost: 8]
+
+Current path position: 
+Current: (2:0) NorthWest | Cost: 35
+Destination: (4:4) NOP | Cost: 0
+Map:
+  x|y: 0 1 2 3 4
+
+  0:   8 6 5 5 8
+  1:   8 1 9 8 7
+  2:   [92m8[0m 4 6 3 2
+  3:   4 8 4 1 6
+  4:   1 8 6 6 [91m4[0m
+
+
+new paths added to frontier: 
+[[(1:0) North | Cost: 8, (0:1) SouthEast | Cost: 9, (0:2) East | Cost: 6, (1:1) NorthWest | Cost: 4, (2:0) NorthWest | Cost: 8, (3:0) North | Cost: 5], [(1:0) North | Cost: 8, (0:1) SouthEast | Cost: 9, (0:2) East | Cost: 6, (1:1) NorthWest | Cost: 4, (2:0) NorthWest | Cost: 8, (3:1) NorthEast | Cost: 10], [(1:0) North | Cost: 8, (0:1) SouthEast | Cost: 9, (0:2) East | Cost: 6, (1:1) NorthWest | Cost: 4, (2:0) NorthWest | Cost: 8, (2:1) East | Cost: 7]]
+
+Simulating path: 
+[(1:0) North | Cost: 8, (0:1) SouthEast | Cost: 9, (0:2) East | Cost: 6, (1:1) NorthWest | Cost: 4, (2:0) NorthWest | Cost: 8, (2:1) East | Cost: 7]
+
+Current path position: 
+Current: (2:1) East | Cost: 42
+Destination: (4:4) NOP | Cost: 0
+Map:
+  x|y: 0 1 2 3 4
+
+  0:   8 6 5 5 8
+  1:   8 1 9 8 7
+  2:   8 [92m4[0m 6 3 2
+  3:   4 8 4 1 6
+  4:   1 8 6 6 [91m4[0m
+
+
+new paths added to frontier: 
+[[(1:0) North | Cost: 8, (0:1) SouthEast | Cost: 9, (0:2) East | Cost: 6, (1:1) NorthWest | Cost: 4, (2:0) NorthWest | Cost: 8, (2:1) East | Cost: 7, (3:1) North | Cost: 10], [(1:0) North | Cost: 8, (0:1) SouthEast | Cost: 9, (0:2) East | Cost: 6, (1:1) NorthWest | Cost: 4, (2:0) NorthWest | Cost: 8, (2:1) East | Cost: 7, (3:2) NorthEast | Cost: 5], [(1:0) North | Cost: 8, (0:1) SouthEast | Cost: 9, (0:2) East | Cost: 6, (1:1) NorthWest | Cost: 4, (2:0) NorthWest | Cost: 8, (2:1) East | Cost: 7, (2:2) East | Cost: 6], [(1:0) North | Cost: 8, (0:1) SouthEast | Cost: 9, (0:2) East | Cost: 6, (1:1) NorthWest | Cost: 4, (2:0) NorthWest | Cost: 8, (2:1) East | Cost: 7, (1:2) SouthEast | Cost: 10], [(1:0) North | Cost: 8, (0:1) SouthEast | Cost: 9, (0:2) East | Cost: 6, (1:1) NorthWest | Cost: 4, (2:0) NorthWest | Cost: 8, (2:1) East | Cost: 7, (3:0) NorthWest | Cost: 7]]
+
+Simulating path: 
+[(1:0) North | Cost: 8, (0:1) SouthEast | Cost: 9, (0:2) East | Cost: 6, (1:1) NorthWest | Cost: 4, (2:0) NorthWest | Cost: 8, (2:1) East | Cost: 7, (3:0) NorthWest | Cost: 7]
+
+Current path position: 
+Current: (3:0) NorthWest | Cost: 49
+Destination: (4:4) NOP | Cost: 0
+Map:
+  x|y: 0 1 2 3 4
+
+  0:   8 6 5 5 8
+  1:   8 1 9 8 7
+  2:   8 4 6 3 2
+  3:   [92m4[0m 8 4 1 6
+  4:   1 8 6 6 [91m4[0m
+
+
+new paths added to frontier: 
+[[(1:0) North | Cost: 8, (0:1) SouthEast | Cost: 9, (0:2) East | Cost: 6, (1:1) NorthWest | Cost: 4, (2:0) NorthWest | Cost: 8, (2:1) East | Cost: 7, (3:0) NorthWest | Cost: 7, (4:0) North | Cost: 2], [(1:0) North | Cost: 8, (0:1) SouthEast | Cost: 9, (0:2) East | Cost: 6, (1:1) NorthWest | Cost: 4, (2:0) NorthWest | Cost: 8, (2:1) East | Cost: 7, (3:0) NorthWest | Cost: 7, (4:1) NorthEast | Cost: 10], [(1:0) North | Cost: 8, (0:1) SouthEast | Cost: 9, (0:2) East | Cost: 6, (1:1) NorthWest | Cost: 4, (2:0) NorthWest | Cost: 8, (2:1) East | Cost: 7, (3:0) NorthWest | Cost: 7, (3:1) East | Cost: 11]]
+
+Simulating path: 
+[(1:0) North | Cost: 8, (0:1) SouthEast | Cost: 9, (0:2) East | Cost: 6, (1:1) NorthWest | Cost: 4, (2:0) NorthWest | Cost: 8, (2:1) East | Cost: 7, (3:0) NorthWest | Cost: 7, (3:1) East | Cost: 11]
+
+Current path position: 
+Current: (3:1) East | Cost: 60
+Destination: (4:4) NOP | Cost: 0
+Map:
+  x|y: 0 1 2 3 4
+
+  0:   8 6 5 5 8
+  1:   8 1 9 8 7
+  2:   8 4 6 3 2
+  3:   4 [92m8[0m 4 1 6
+  4:   1 8 6 6 [91m4[0m
+
+
+new paths added to frontier: 
+[[(1:0) North | Cost: 8, (0:1) SouthEast | Cost: 9, (0:2) East | Cost: 6, (1:1) NorthWest | Cost: 4, (2:0) NorthWest | Cost: 8, (2:1) East | Cost: 7, (3:0) NorthWest | Cost: 7, (3:1) East | Cost: 11, (4:1) North | Cost: 10], [(1:0) North | Cost: 8, (0:1) SouthEast | Cost: 9, (0:2) East | Cost: 6, (1:1) NorthWest | Cost: 4, (2:0) NorthWest | Cost: 8, (2:1) East | Cost: 7, (3:0) NorthWest | Cost: 7, (3:1) East | Cost: 11, (4:2) NorthEast | Cost: 7], [(1:0) North | Cost: 8, (0:1) SouthEast | Cost: 9, (0:2) East | Cost: 6, (1:1) NorthWest | Cost: 4, (2:0) NorthWest | Cost: 8, (2:1) East | Cost: 7, (3:0) NorthWest | Cost: 7, (3:1) East | Cost: 11, (3:2) East | Cost: 4], [(1:0) North | Cost: 8, (0:1) SouthEast | Cost: 9, (0:2) East | Cost: 6, (1:1) NorthWest | Cost: 4, (2:0) NorthWest | Cost: 8, (2:1) East | Cost: 7, (3:0) NorthWest | Cost: 7, (3:1) East | Cost: 11, (2:2) SouthEast | Cost: 7], [(1:0) North | Cost: 8, (0:1) SouthEast | Cost: 9, (0:2) East | Cost: 6, (1:1) NorthWest | Cost: 4, (2:0) NorthWest | Cost: 8, (2:1) East | Cost: 7, (3:0) NorthWest | Cost: 7, (3:1) East | Cost: 11, (4:0) NorthWest | Cost: 4]]
+
+Simulating path: 
+[(1:0) North | Cost: 8, (0:1) SouthEast | Cost: 9, (0:2) East | Cost: 6, (1:1) NorthWest | Cost: 4, (2:0) NorthWest | Cost: 8, (2:1) East | Cost: 7, (3:0) NorthWest | Cost: 7, (3:1) East | Cost: 11, (4:0) NorthWest | Cost: 4]
+
+Current path position: 
+Current: (4:0) NorthWest | Cost: 64
+Destination: (4:4) NOP | Cost: 0
+Map:
+  x|y: 0 1 2 3 4
+
+  0:   8 6 5 5 8
+  1:   8 1 9 8 7
+  2:   8 4 6 3 2
+  3:   4 8 4 1 6
+  4:   [92m1[0m 8 6 6 [91m4[0m
+
+
+new paths added to frontier: 
+[[(1:0) North | Cost: 8, (0:1) SouthEast | Cost: 9, (0:2) East | Cost: 6, (1:1) NorthWest | Cost: 4, (2:0) NorthWest | Cost: 8, (2:1) East | Cost: 7, (3:0) NorthWest | Cost: 7, (3:1) East | Cost: 11, (4:0) NorthWest | Cost: 4, (4:1) East | Cost: 11]]
+
+Simulating path: 
+[(1:0) North | Cost: 8, (0:1) SouthEast | Cost: 9, (0:2) East | Cost: 6, (1:1) NorthWest | Cost: 4, (2:0) NorthWest | Cost: 8, (2:1) East | Cost: 7, (3:0) NorthWest | Cost: 7, (3:1) East | Cost: 11, (4:0) NorthWest | Cost: 4, (4:1) East | Cost: 11]
+
+Current path position: 
+Current: (4:1) East | Cost: 75
+Destination: (4:4) NOP | Cost: 0
+Map:
+  x|y: 0 1 2 3 4
+
+  0:   8 6 5 5 8
+  1:   8 1 9 8 7
+  2:   8 4 6 3 2
+  3:   4 8 4 1 6
+  4:   1 [92m8[0m 6 6 [91m4[0m
+
+
+new paths added to frontier: 
+[[(1:0) North | Cost: 8, (0:1) SouthEast | Cost: 9, (0:2) East | Cost: 6, (1:1) NorthWest | Cost: 4, (2:0) NorthWest | Cost: 8, (2:1) East | Cost: 7, (3:0) NorthWest | Cost: 7, (3:1) East | Cost: 11, (4:0) NorthWest | Cost: 4, (4:1) East | Cost: 11, (4:2) East | Cost: 6], [(1:0) North | Cost: 8, (0:1) SouthEast | Cost: 9, (0:2) East | Cost: 6, (1:1) NorthWest | Cost: 4, (2:0) NorthWest | Cost: 8, (2:1) East | Cost: 7, (3:0) NorthWest | Cost: 7, (3:1) East | Cost: 11, (4:0) NorthWest | Cost: 4, (4:1) East | Cost: 11, (3:2) SouthEast | Cost: 5]]
+
+Simulating path: 
+[(1:0) North | Cost: 8, (0:1) SouthEast | Cost: 9, (0:2) East | Cost: 6, (1:1) NorthWest | Cost: 4, (2:0) NorthWest | Cost: 8, (2:1) East | Cost: 7, (3:0) NorthWest | Cost: 7, (3:1) East | Cost: 11, (4:0) NorthWest | Cost: 4, (4:1) East | Cost: 11, (3:2) SouthEast | Cost: 5]
+
+Current path position: 
+Current: (3:2) SouthEast | Cost: 80
+Destination: (4:4) NOP | Cost: 0
+Map:
+  x|y: 0 1 2 3 4
+
+  0:   8 6 5 5 8
+  1:   8 1 9 8 7
+  2:   8 4 6 3 2
+  3:   4 8 [92m4[0m 1 6
+  4:   1 8 6 6 [91m4[0m
+
+
+new paths added to frontier: 
+[[(1:0) North | Cost: 8, (0:1) SouthEast | Cost: 9, (0:2) East | Cost: 6, (1:1) NorthWest | Cost: 4, (2:0) NorthWest | Cost: 8, (2:1) East | Cost: 7, (3:0) NorthWest | Cost: 7, (3:1) East | Cost: 11, (4:0) NorthWest | Cost: 4, (4:1) East | Cost: 11, (3:2) SouthEast | Cost: 5, (4:2) North | Cost: 9], [(1:0) North | Cost: 8, (0:1) SouthEast | Cost: 9, (0:2) East | Cost: 6, (1:1) NorthWest | Cost: 4, (2:0) NorthWest | Cost: 8, (2:1) East | Cost: 7, (3:0) NorthWest | Cost: 7, (3:1) East | Cost: 11, (4:0) NorthWest | Cost: 4, (4:1) East | Cost: 11, (3:2) SouthEast | Cost: 5, (4:3) NorthEast | Cost: 8], [(1:0) North | Cost: 8, (0:1) SouthEast | Cost: 9, (0:2) East | Cost: 6, (1:1) NorthWest | Cost: 4, (2:0) NorthWest | Cost: 8, (2:1) East | Cost: 7, (3:0) NorthWest | Cost: 7, (3:1) East | Cost: 11, (4:0) NorthWest | Cost: 4, (4:1) East | Cost: 11, (3:2) SouthEast | Cost: 5, (3:3) East | Cost: 2], [(1:0) North | Cost: 8, (0:1) SouthEast | Cost: 9, (0:2) East | Cost: 6, (1:1) NorthWest | Cost: 4, (2:0) NorthWest | Cost: 8, (2:1) East | Cost: 7, (3:0) NorthWest | Cost: 7, (3:1) East | Cost: 11, (4:0) NorthWest | Cost: 4, (4:1) East | Cost: 11, (3:2) SouthEast | Cost: 5, (2:3) SouthEast | Cost: 3], [(1:0) North | Cost: 8, (0:1) SouthEast | Cost: 9, (0:2) East | Cost: 6, (1:1) NorthWest | Cost: 4, (2:0) NorthWest | Cost: 8, (2:1) East | Cost: 7, (3:0) NorthWest | Cost: 7, (3:1) East | Cost: 11, (4:0) NorthWest | Cost: 4, (4:1) East | Cost: 11, (3:2) SouthEast | Cost: 5, (2:2) South | Cost: 7]]
+
+Simulating path: 
+[(1:0) North | Cost: 8, (0:1) SouthEast | Cost: 9, (0:2) East | Cost: 6, (1:1) NorthWest | Cost: 4, (2:0) NorthWest | Cost: 8, (2:1) East | Cost: 7, (3:0) NorthWest | Cost: 7, (3:1) East | Cost: 11, (4:0) NorthWest | Cost: 4, (4:1) East | Cost: 11, (3:2) SouthEast | Cost: 5, (2:2) South | Cost: 7]
+
+Current path position: 
+Current: (2:2) South | Cost: 87
+Destination: (4:4) NOP | Cost: 0
+Map:
+  x|y: 0 1 2 3 4
+
+  0:   8 6 5 5 8
+  1:   8 1 9 8 7
+  2:   8 4 [92m6[0m 3 2
+  3:   4 8 4 1 6
+  4:   1 8 6 6 [91m4[0m
+
+
+new paths added to frontier: 
+[[(1:0) North | Cost: 8, (0:1) SouthEast | Cost: 9, (0:2) East | Cost: 6, (1:1) NorthWest | Cost: 4, (2:0) NorthWest | Cost: 8, (2:1) East | Cost: 7, (3:0) NorthWest | Cost: 7, (3:1) East | Cost: 11, (4:0) NorthWest | Cost: 4, (4:1) East | Cost: 11, (3:2) SouthEast | Cost: 5, (2:2) South | Cost: 7, (3:3) NorthEast | Cost: 4], [(1:0) North | Cost: 8, (0:1) SouthEast | Cost: 9, (0:2) East | Cost: 6, (1:1) NorthWest | Cost: 4, (2:0) NorthWest | Cost: 8, (2:1) East | Cost: 7, (3:0) NorthWest | Cost: 7, (3:1) East | Cost: 11, (4:0) NorthWest | Cost: 4, (4:1) East | Cost: 11, (3:2) SouthEast | Cost: 5, (2:2) South | Cost: 7, (2:3) East | Cost: 5], [(1:0) North | Cost: 8, (0:1) SouthEast | Cost: 9, (0:2) East | Cost: 6, (1:1) NorthWest | Cost: 4, (2:0) NorthWest | Cost: 8, (2:1) East | Cost: 7, (3:0) NorthWest | Cost: 7, (3:1) East | Cost: 11, (4:0) NorthWest | Cost: 4, (4:1) East | Cost: 11, (3:2) SouthEast | Cost: 5, (2:2) South | Cost: 7, (1:3) SouthEast | Cost: 9], [(1:0) North | Cost: 8, (0:1) SouthEast | Cost: 9, (0:2) East | Cost: 6, (1:1) NorthWest | Cost: 4, (2:0) NorthWest | Cost: 8, (2:1) East | Cost: 7, (3:0) NorthWest | Cost: 7, (3:1) East | Cost: 11, (4:0) NorthWest | Cost: 4, (4:1) East | Cost: 11, (3:2) SouthEast | Cost: 5, (2:2) South | Cost: 7, (1:2) South | Cost: 9]]
+
+Simulating path: 
+[(1:0) North | Cost: 8, (0:1) SouthEast | Cost: 9, (0:2) East | Cost: 6, (1:1) NorthWest | Cost: 4, (2:0) NorthWest | Cost: 8, (2:1) East | Cost: 7, (3:0) NorthWest | Cost: 7, (3:1) East | Cost: 11, (4:0) NorthWest | Cost: 4, (4:1) East | Cost: 11, (3:2) SouthEast | Cost: 5, (2:2) South | Cost: 7, (1:2) South | Cost: 9]
+
+Current path position: 
+Current: (1:2) South | Cost: 96
+Destination: (4:4) NOP | Cost: 0
+Map:
+  x|y: 0 1 2 3 4
+
+  0:   8 6 5 5 8
+  1:   8 1 [92m9[0m 8 7
+  2:   8 4 6 3 2
+  3:   4 8 4 1 6
+  4:   1 8 6 6 [91m4[0m
+
+
+new paths added to frontier: 
+[[(1:0) North | Cost: 8, (0:1) SouthEast | Cost: 9, (0:2) East | Cost: 6, (1:1) NorthWest | Cost: 4, (2:0) NorthWest | Cost: 8, (2:1) East | Cost: 7, (3:0) NorthWest | Cost: 7, (3:1) East | Cost: 11, (4:0) NorthWest | Cost: 4, (4:1) East | Cost: 11, (3:2) SouthEast | Cost: 5, (2:2) South | Cost: 7, (1:2) South | Cost: 9, (2:3) NorthEast | Cost: 6], [(1:0) North | Cost: 8, (0:1) SouthEast | Cost: 9, (0:2) East | Cost: 6, (1:1) NorthWest | Cost: 4, (2:0) NorthWest | Cost: 8, (2:1) East | Cost: 7, (3:0) NorthWest | Cost: 7, (3:1) East | Cost: 11, (4:0) NorthWest | Cost: 4, (4:1) East | Cost: 11, (3:2) SouthEast | Cost: 5, (2:2) South | Cost: 7, (1:2) South | Cost: 9, (1:3) East | Cost: 10], [(1:0) North | Cost: 8, (0:1) SouthEast | Cost: 9, (0:2) East | Cost: 6, (1:1) NorthWest | Cost: 4, (2:0) NorthWest | Cost: 8, (2:1) East | Cost: 7, (3:0) NorthWest | Cost: 7, (3:1) East | Cost: 11, (4:0) NorthWest | Cost: 4, (4:1) East | Cost: 11, (3:2) SouthEast | Cost: 5, (2:2) South | Cost: 7, (1:2) South | Cost: 9, (0:3) SouthEast | Cost: 6]]
+
+Simulating path: 
+[(1:0) North | Cost: 8, (0:1) SouthEast | Cost: 9, (0:2) East | Cost: 6, (1:1) NorthWest | Cost: 4, (2:0) NorthWest | Cost: 8, (2:1) East | Cost: 7, (3:0) NorthWest | Cost: 7, (3:1) East | Cost: 11, (4:0) NorthWest | Cost: 4, (4:1) East | Cost: 11, (3:2) SouthEast | Cost: 5, (2:2) South | Cost: 7, (1:2) South | Cost: 9, (0:3) SouthEast | Cost: 6]
+
+Current path position: 
+Current: (0:3) SouthEast | Cost: 102
+Destination: (4:4) NOP | Cost: 0
+Map:
+  x|y: 0 1 2 3 4
+
+  0:   8 6 5 [92m5[0m 8
+  1:   8 1 9 8 7
+  2:   8 4 6 3 2
+  3:   4 8 4 1 6
+  4:   1 8 6 6 [91m4[0m
+
+
+new paths added to frontier: 
+[[(1:0) North | Cost: 8, (0:1) SouthEast | Cost: 9, (0:2) East | Cost: 6, (1:1) NorthWest | Cost: 4, (2:0) NorthWest | Cost: 8, (2:1) East | Cost: 7, (3:0) NorthWest | Cost: 7, (3:1) East | Cost: 11, (4:0) NorthWest | Cost: 4, (4:1) East | Cost: 11, (3:2) SouthEast | Cost: 5, (2:2) South | Cost: 7, (1:2) South | Cost: 9, (0:3) SouthEast | Cost: 6, (1:3) North | Cost: 11], [(1:0) North | Cost: 8, (0:1) SouthEast | Cost: 9, (0:2) East | Cost: 6, (1:1) NorthWest | Cost: 4, (2:0) NorthWest | Cost: 8, (2:1) East | Cost: 7, (3:0) NorthWest | Cost: 7, (3:1) East | Cost: 11, (4:0) NorthWest | Cost: 4, (4:1) East | Cost: 11, (3:2) SouthEast | Cost: 5, (2:2) South | Cost: 7, (1:2) South | Cost: 9, (0:3) SouthEast | Cost: 6, (1:4) NorthEast | Cost: 9], [(1:0) North | Cost: 8, (0:1) SouthEast | Cost: 9, (0:2) East | Cost: 6, (1:1) NorthWest | Cost: 4, (2:0) NorthWest | Cost: 8, (2:1) East | Cost: 7, (3:0) NorthWest | Cost: 7, (3:1) East | Cost: 11, (4:0) NorthWest | Cost: 4, (4:1) East | Cost: 11, (3:2) SouthEast | Cost: 5, (2:2) South | Cost: 7, (1:2) South | Cost: 9, (0:3) SouthEast | Cost: 6, (0:4) East | Cost: 9]]
+
+Simulating path: 
+[(1:0) North | Cost: 8, (0:1) SouthEast | Cost: 9, (0:2) East | Cost: 6, (1:1) NorthWest | Cost: 4, (2:0) NorthWest | Cost: 8, (2:1) East | Cost: 7, (3:0) NorthWest | Cost: 7, (3:1) East | Cost: 11, (4:0) NorthWest | Cost: 4, (4:1) East | Cost: 11, (3:2) SouthEast | Cost: 5, (2:2) South | Cost: 7, (1:2) South | Cost: 9, (0:3) SouthEast | Cost: 6, (0:4) East | Cost: 9]
+
+Current path position: 
+Current: (0:4) East | Cost: 111
+Destination: (4:4) NOP | Cost: 0
+Map:
+  x|y: 0 1 2 3 4
+
+  0:   8 6 5 5 [92m8[0m
+  1:   8 1 9 8 7
+  2:   8 4 6 3 2
+  3:   4 8 4 1 6
+  4:   1 8 6 6 [91m4[0m
+
+
+new paths added to frontier: 
+[[(1:0) North | Cost: 8, (0:1) SouthEast | Cost: 9, (0:2) East | Cost: 6, (1:1) NorthWest | Cost: 4, (2:0) NorthWest | Cost: 8, (2:1) East | Cost: 7, (3:0) NorthWest | Cost: 7, (3:1) East | Cost: 11, (4:0) NorthWest | Cost: 4, (4:1) East | Cost: 11, (3:2) SouthEast | Cost: 5, (2:2) South | Cost: 7, (1:2) South | Cost: 9, (0:3) SouthEast | Cost: 6, (0:4) East | Cost: 9, (1:4) North | Cost: 9], [(1:0) North | Cost: 8, (0:1) SouthEast | Cost: 9, (0:2) East | Cost: 6, (1:1) NorthWest | Cost: 4, (2:0) NorthWest | Cost: 8, (2:1) East | Cost: 7, (3:0) NorthWest | Cost: 7, (3:1) East | Cost: 11, (4:0) NorthWest | Cost: 4, (4:1) East | Cost: 11, (3:2) SouthEast | Cost: 5, (2:2) South | Cost: 7, (1:2) South | Cost: 9, (0:3) SouthEast | Cost: 6, (0:4) East | Cost: 9, (1:3) NorthWest | Cost: 11]]
+
+Simulating path: 
+[(1:0) North | Cost: 8, (0:1) SouthEast | Cost: 9, (0:2) East | Cost: 6, (1:1) NorthWest | Cost: 4, (2:0) NorthWest | Cost: 8, (2:1) East | Cost: 7, (3:0) NorthWest | Cost: 7, (3:1) East | Cost: 11, (4:0) NorthWest | Cost: 4, (4:1) East | Cost: 11, (3:2) SouthEast | Cost: 5, (2:2) South | Cost: 7, (1:2) South | Cost: 9, (0:3) SouthEast | Cost: 6, (0:4) East | Cost: 9, (1:3) NorthWest | Cost: 11]
+
+Current path position: 
+Current: (1:3) NorthWest | Cost: 122
+Destination: (4:4) NOP | Cost: 0
+Map:
+  x|y: 0 1 2 3 4
+
+  0:   8 6 5 5 8
+  1:   8 1 9 [92m8[0m 7
+  2:   8 4 6 3 2
+  3:   4 8 4 1 6
+  4:   1 8 6 6 [91m4[0m
+
+
+new paths added to frontier: 
+[[(1:0) North | Cost: 8, (0:1) SouthEast | Cost: 9, (0:2) East | Cost: 6, (1:1) NorthWest | Cost: 4, (2:0) NorthWest | Cost: 8, (2:1) East | Cost: 7, (3:0) NorthWest | Cost: 7, (3:1) East | Cost: 11, (4:0) NorthWest | Cost: 4, (4:1) East | Cost: 11, (3:2) SouthEast | Cost: 5, (2:2) South | Cost: 7, (1:2) South | Cost: 9, (0:3) SouthEast | Cost: 6, (0:4) East | Cost: 9, (1:3) NorthWest | Cost: 11, (2:3) North | Cost: 4], [(1:0) North | Cost: 8, (0:1) SouthEast | Cost: 9, (0:2) East | Cost: 6, (1:1) NorthWest | Cost: 4, (2:0) NorthWest | Cost: 8, (2:1) East | Cost: 7, (3:0) NorthWest | Cost: 7, (3:1) East | Cost: 11, (4:0) NorthWest | Cost: 4, (4:1) East | Cost: 11, (3:2) SouthEast | Cost: 5, (2:2) South | Cost: 7, (1:2) South | Cost: 9, (0:3) SouthEast | Cost: 6, (0:4) East | Cost: 9, (1:3) NorthWest | Cost: 11, (2:4) NorthEast | Cost: 4], [(1:0) North | Cost: 8, (0:1) SouthEast | Cost: 9, (0:2) East | Cost: 6, (1:1) NorthWest | Cost: 4, (2:0) NorthWest | Cost: 8, (2:1) East | Cost: 7, (3:0) NorthWest | Cost: 7, (3:1) East | Cost: 11, (4:0) NorthWest | Cost: 4, (4:1) East | Cost: 11, (3:2) SouthEast | Cost: 5, (2:2) South | Cost: 7, (1:2) South | Cost: 9, (0:3) SouthEast | Cost: 6, (0:4) East | Cost: 9, (1:3) NorthWest | Cost: 11, (1:4) East | Cost: 10]]
+
+Simulating path: 
+[(1:0) North | Cost: 8, (0:1) SouthEast | Cost: 9, (0:2) East | Cost: 6, (1:1) NorthWest | Cost: 4, (2:0) NorthWest | Cost: 8, (2:1) East | Cost: 7, (3:0) NorthWest | Cost: 7, (3:1) East | Cost: 11, (4:0) NorthWest | Cost: 4, (4:1) East | Cost: 11, (3:2) SouthEast | Cost: 5, (2:2) South | Cost: 7, (1:2) South | Cost: 9, (0:3) SouthEast | Cost: 6, (0:4) East | Cost: 9, (1:3) NorthWest | Cost: 11, (1:4) East | Cost: 10]
+
+Current path position: 
+Current: (1:4) East | Cost: 132
+Destination: (4:4) NOP | Cost: 0
+Map:
+  x|y: 0 1 2 3 4
+
+  0:   8 6 5 5 8
+  1:   8 1 9 8 [92m7[0m
+  2:   8 4 6 3 2
+  3:   4 8 4 1 6
+  4:   1 8 6 6 [91m4[0m
+
+
+new paths added to frontier: 
+[[(1:0) North | Cost: 8, (0:1) SouthEast | Cost: 9, (0:2) East | Cost: 6, (1:1) NorthWest | Cost: 4, (2:0) NorthWest | Cost: 8, (2:1) East | Cost: 7, (3:0) NorthWest | Cost: 7, (3:1) East | Cost: 11, (4:0) NorthWest | Cost: 4, (4:1) East | Cost: 11, (3:2) SouthEast | Cost: 5, (2:2) South | Cost: 7, (1:2) South | Cost: 9, (0:3) SouthEast | Cost: 6, (0:4) East | Cost: 9, (1:3) NorthWest | Cost: 11, (1:4) East | Cost: 10, (2:4) North | Cost: 4], [(1:0) North | Cost: 8, (0:1) SouthEast | Cost: 9, (0:2) East | Cost: 6, (1:1) NorthWest | Cost: 4, (2:0) NorthWest | Cost: 8, (2:1) East | Cost: 7, (3:0) NorthWest | Cost: 7, (3:1) East | Cost: 11, (4:0) NorthWest | Cost: 4, (4:1) East | Cost: 11, (3:2) SouthEast | Cost: 5, (2:2) South | Cost: 7, (1:2) South | Cost: 9, (0:3) SouthEast | Cost: 6, (0:4) East | Cost: 9, (1:3) NorthWest | Cost: 11, (1:4) East | Cost: 10, (2:3) NorthWest | Cost: 6]]
+
+Simulating path: 
+[(1:0) North | Cost: 8, (0:1) SouthEast | Cost: 9, (0:2) East | Cost: 6, (1:1) NorthWest | Cost: 4, (2:0) NorthWest | Cost: 8, (2:1) East | Cost: 7, (3:0) NorthWest | Cost: 7, (3:1) East | Cost: 11, (4:0) NorthWest | Cost: 4, (4:1) East | Cost: 11, (3:2) SouthEast | Cost: 5, (2:2) South | Cost: 7, (1:2) South | Cost: 9, (0:3) SouthEast | Cost: 6, (0:4) East | Cost: 9, (1:3) NorthWest | Cost: 11, (1:4) East | Cost: 10, (2:3) NorthWest | Cost: 6]
+
+Current path position: 
+Current: (2:3) NorthWest | Cost: 138
+Destination: (4:4) NOP | Cost: 0
+Map:
+  x|y: 0 1 2 3 4
+
+  0:   8 6 5 5 8
+  1:   8 1 9 8 7
+  2:   8 4 6 [92m3[0m 2
+  3:   4 8 4 1 6
+  4:   1 8 6 6 [91m4[0m
+
+
+new paths added to frontier: 
+[[(1:0) North | Cost: 8, (0:1) SouthEast | Cost: 9, (0:2) East | Cost: 6, (1:1) NorthWest | Cost: 4, (2:0) NorthWest | Cost: 8, (2:1) East | Cost: 7, (3:0) NorthWest | Cost: 7, (3:1) East | Cost: 11, (4:0) NorthWest | Cost: 4, (4:1) East | Cost: 11, (3:2) SouthEast | Cost: 5, (2:2) South | Cost: 7, (1:2) South | Cost: 9, (0:3) SouthEast | Cost: 6, (0:4) East | Cost: 9, (1:3) NorthWest | Cost: 11, (1:4) East | Cost: 10, (2:3) NorthWest | Cost: 6, (3:3) North | Cost: 2], [(1:0) North | Cost: 8, (0:1) SouthEast | Cost: 9, (0:2) East | Cost: 6, (1:1) NorthWest | Cost: 4, (2:0) NorthWest | Cost: 8, (2:1) East | Cost: 7, (3:0) NorthWest | Cost: 7, (3:1) East | Cost: 11, (4:0) NorthWest | Cost: 4, (4:1) East | Cost: 11, (3:2) SouthEast | Cost: 5, (2:2) South | Cost: 7, (1:2) South | Cost: 9, (0:3) SouthEast | Cost: 6, (0:4) East | Cost: 9, (1:3) NorthWest | Cost: 11, (1:4) East | Cost: 10, (2:3) NorthWest | Cost: 6, (3:4) NorthEast | Cost: 8], [(1:0) North | Cost: 8, (0:1) SouthEast | Cost: 9, (0:2) East | Cost: 6, (1:1) NorthWest | Cost: 4, (2:0) NorthWest | Cost: 8, (2:1) East | Cost: 7, (3:0) NorthWest | Cost: 7, (3:1) East | Cost: 11, (4:0) NorthWest | Cost: 4, (4:1) East | Cost: 11, (3:2) SouthEast | Cost: 5, (2:2) South | Cost: 7, (1:2) South | Cost: 9, (0:3) SouthEast | Cost: 6, (0:4) East | Cost: 9, (1:3) NorthWest | Cost: 11, (1:4) East | Cost: 10, (2:3) NorthWest | Cost: 6, (2:4) East | Cost: 5]]
+
+Simulating path: 
+[(1:0) North | Cost: 8, (0:1) SouthEast | Cost: 9, (0:2) East | Cost: 6, (1:1) NorthWest | Cost: 4, (2:0) NorthWest | Cost: 8, (2:1) East | Cost: 7, (3:0) NorthWest | Cost: 7, (3:1) East | Cost: 11, (4:0) NorthWest | Cost: 4, (4:1) East | Cost: 11, (3:2) SouthEast | Cost: 5, (2:2) South | Cost: 7, (1:2) South | Cost: 9, (0:3) SouthEast | Cost: 6, (0:4) East | Cost: 9, (1:3) NorthWest | Cost: 11, (1:4) East | Cost: 10, (2:3) NorthWest | Cost: 6, (2:4) East | Cost: 5]
+
+Current path position: 
+Current: (2:4) East | Cost: 143
+Destination: (4:4) NOP | Cost: 0
+Map:
+  x|y: 0 1 2 3 4
+
+  0:   8 6 5 5 8
+  1:   8 1 9 8 7
+  2:   8 4 6 3 [92m2[0m
+  3:   4 8 4 1 6
+  4:   1 8 6 6 [91m4[0m
+
+
+new paths added to frontier: 
+[[(1:0) North | Cost: 8, (0:1) SouthEast | Cost: 9, (0:2) East | Cost: 6, (1:1) NorthWest | Cost: 4, (2:0) NorthWest | Cost: 8, (2:1) East | Cost: 7, (3:0) NorthWest | Cost: 7, (3:1) East | Cost: 11, (4:0) NorthWest | Cost: 4, (4:1) East | Cost: 11, (3:2) SouthEast | Cost: 5, (2:2) South | Cost: 7, (1:2) South | Cost: 9, (0:3) SouthEast | Cost: 6, (0:4) East | Cost: 9, (1:3) NorthWest | Cost: 11, (1:4) East | Cost: 10, (2:3) NorthWest | Cost: 6, (2:4) East | Cost: 5, (3:4) North | Cost: 8], [(1:0) North | Cost: 8, (0:1) SouthEast | Cost: 9, (0:2) East | Cost: 6, (1:1) NorthWest | Cost: 4, (2:0) NorthWest | Cost: 8, (2:1) East | Cost: 7, (3:0) NorthWest | Cost: 7, (3:1) East | Cost: 11, (4:0) NorthWest | Cost: 4, (4:1) East | Cost: 11, (3:2) SouthEast | Cost: 5, (2:2) South | Cost: 7, (1:2) South | Cost: 9, (0:3) SouthEast | Cost: 6, (0:4) East | Cost: 9, (1:3) NorthWest | Cost: 11, (1:4) East | Cost: 10, (2:3) NorthWest | Cost: 6, (2:4) East | Cost: 5, (3:3) NorthWest | Cost: 4]]
+
+Simulating path: 
+[(1:0) North | Cost: 8, (0:1) SouthEast | Cost: 9, (0:2) East | Cost: 6, (1:1) NorthWest | Cost: 4, (2:0) NorthWest | Cost: 8, (2:1) East | Cost: 7, (3:0) NorthWest | Cost: 7, (3:1) East | Cost: 11, (4:0) NorthWest | Cost: 4, (4:1) East | Cost: 11, (3:2) SouthEast | Cost: 5, (2:2) South | Cost: 7, (1:2) South | Cost: 9, (0:3) SouthEast | Cost: 6, (0:4) East | Cost: 9, (1:3) NorthWest | Cost: 11, (1:4) East | Cost: 10, (2:3) NorthWest | Cost: 6, (2:4) East | Cost: 5, (3:3) NorthWest | Cost: 4]
+
+Current path position: 
+Current: (3:3) NorthWest | Cost: 147
+Destination: (4:4) NOP | Cost: 0
+Map:
+  x|y: 0 1 2 3 4
+
+  0:   8 6 5 5 8
+  1:   8 1 9 8 7
+  2:   8 4 6 3 2
+  3:   4 8 4 [92m1[0m 6
+  4:   1 8 6 6 [91m4[0m
+
+
+new paths added to frontier: 
+[[(1:0) North | Cost: 8, (0:1) SouthEast | Cost: 9, (0:2) East | Cost: 6, (1:1) NorthWest | Cost: 4, (2:0) NorthWest | Cost: 8, (2:1) East | Cost: 7, (3:0) NorthWest | Cost: 7, (3:1) East | Cost: 11, (4:0) NorthWest | Cost: 4, (4:1) East | Cost: 11, (3:2) SouthEast | Cost: 5, (2:2) South | Cost: 7, (1:2) South | Cost: 9, (0:3) SouthEast | Cost: 6, (0:4) East | Cost: 9, (1:3) NorthWest | Cost: 11, (1:4) East | Cost: 10, (2:3) NorthWest | Cost: 6, (2:4) East | Cost: 5, (3:3) NorthWest | Cost: 4, (4:3) North | Cost: 7], [(1:0) North | Cost: 8, (0:1) SouthEast | Cost: 9, (0:2) East | Cost: 6, (1:1) NorthWest | Cost: 4, (2:0) NorthWest | Cost: 8, (2:1) East | Cost: 7, (3:0) NorthWest | Cost: 7, (3:1) East | Cost: 11, (4:0) NorthWest | Cost: 4, (4:1) East | Cost: 11, (3:2) SouthEast | Cost: 5, (2:2) South | Cost: 7, (1:2) South | Cost: 9, (0:3) SouthEast | Cost: 6, (0:4) East | Cost: 9, (1:3) NorthWest | Cost: 11, (1:4) East | Cost: 10, (2:3) NorthWest | Cost: 6, (2:4) East | Cost: 5, (3:3) NorthWest | Cost: 4, (4:4) NorthEast | Cost: 6], [(1:0) North | Cost: 8, (0:1) SouthEast | Cost: 9, (0:2) East | Cost: 6, (1:1) NorthWest | Cost: 4, (2:0) NorthWest | Cost: 8, (2:1) East | Cost: 7, (3:0) NorthWest | Cost: 7, (3:1) East | Cost: 11, (4:0) NorthWest | Cost: 4, (4:1) East | Cost: 11, (3:2) SouthEast | Cost: 5, (2:2) South | Cost: 7, (1:2) South | Cost: 9, (0:3) SouthEast | Cost: 6, (0:4) East | Cost: 9, (1:3) NorthWest | Cost: 11, (1:4) East | Cost: 10, (2:3) NorthWest | Cost: 6, (2:4) East | Cost: 5, (3:3) NorthWest | Cost: 4, (3:4) East | Cost: 9], [(1:0) North | Cost: 8, (0:1) SouthEast | Cost: 9, (0:2) East | Cost: 6, (1:1) NorthWest | Cost: 4, (2:0) NorthWest | Cost: 8, (2:1) East | Cost: 7, (3:0) NorthWest | Cost: 7, (3:1) East | Cost: 11, (4:0) NorthWest | Cost: 4, (4:1) East | Cost: 11, (3:2) SouthEast | Cost: 5, (2:2) South | Cost: 7, (1:2) South | Cost: 9, (0:3) SouthEast | Cost: 6, (0:4) East | Cost: 9, (1:3) NorthWest | Cost: 11, (1:4) East | Cost: 10, (2:3) NorthWest | Cost: 6, (2:4) East | Cost: 5, (3:3) NorthWest | Cost: 4, (4:2) NorthWest | Cost: 6]]
+
+Simulating path: 
+[(1:0) North | Cost: 8, (0:1) SouthEast | Cost: 9, (0:2) East | Cost: 6, (1:1) NorthWest | Cost: 4, (2:0) NorthWest | Cost: 8, (2:1) East | Cost: 7, (3:0) NorthWest | Cost: 7, (3:1) East | Cost: 11, (4:0) NorthWest | Cost: 4, (4:1) East | Cost: 11, (3:2) SouthEast | Cost: 5, (2:2) South | Cost: 7, (1:2) South | Cost: 9, (0:3) SouthEast | Cost: 6, (0:4) East | Cost: 9, (1:3) NorthWest | Cost: 11, (1:4) East | Cost: 10, (2:3) NorthWest | Cost: 6, (2:4) East | Cost: 5, (3:3) NorthWest | Cost: 4, (4:2) NorthWest | Cost: 6]
+
+Current path position: 
+Current: (4:2) NorthWest | Cost: 153
+Destination: (4:4) NOP | Cost: 0
+Map:
+  x|y: 0 1 2 3 4
+
+  0:   8 6 5 5 8
+  1:   8 1 9 8 7
+  2:   8 4 6 3 2
+  3:   4 8 4 1 6
+  4:   1 8 [92m6[0m 6 [91m4[0m
+
+
+new paths added to frontier: 
+[[(1:0) North | Cost: 8, (0:1) SouthEast | Cost: 9, (0:2) East | Cost: 6, (1:1) NorthWest | Cost: 4, (2:0) NorthWest | Cost: 8, (2:1) East | Cost: 7, (3:0) NorthWest | Cost: 7, (3:1) East | Cost: 11, (4:0) NorthWest | Cost: 4, (4:1) East | Cost: 11, (3:2) SouthEast | Cost: 5, (2:2) South | Cost: 7, (1:2) South | Cost: 9, (0:3) SouthEast | Cost: 6, (0:4) East | Cost: 9, (1:3) NorthWest | Cost: 11, (1:4) East | Cost: 10, (2:3) NorthWest | Cost: 6, (2:4) East | Cost: 5, (3:3) NorthWest | Cost: 4, (4:2) NorthWest | Cost: 6, (4:3) East | Cost: 9]]
+
+Simulating path: 
+[(1:0) North | Cost: 8, (0:1) SouthEast | Cost: 9, (0:2) East | Cost: 6, (1:1) NorthWest | Cost: 4, (2:0) NorthWest | Cost: 8, (2:1) East | Cost: 7, (3:0) NorthWest | Cost: 7, (3:1) East | Cost: 11, (4:0) NorthWest | Cost: 4, (4:1) East | Cost: 11, (3:2) SouthEast | Cost: 5, (2:2) South | Cost: 7, (1:2) South | Cost: 9, (0:3) SouthEast | Cost: 6, (0:4) East | Cost: 9, (1:3) NorthWest | Cost: 11, (1:4) East | Cost: 10, (2:3) NorthWest | Cost: 6, (2:4) East | Cost: 5, (3:3) NorthWest | Cost: 4, (4:2) NorthWest | Cost: 6, (4:3) East | Cost: 9]
+
+Current path position: 
+Current: (4:3) East | Cost: 162
+Destination: (4:4) NOP | Cost: 0
+Map:
+  x|y: 0 1 2 3 4
+
+  0:   8 6 5 5 8
+  1:   8 1 9 8 7
+  2:   8 4 6 3 2
+  3:   4 8 4 1 6
+  4:   1 8 6 [92m6[0m [91m4[0m
+
+
+new paths added to frontier: 
+[[(1:0) North | Cost: 8, (0:1) SouthEast | Cost: 9, (0:2) East | Cost: 6, (1:1) NorthWest | Cost: 4, (2:0) NorthWest | Cost: 8, (2:1) East | Cost: 7, (3:0) NorthWest | Cost: 7, (3:1) East | Cost: 11, (4:0) NorthWest | Cost: 4, (4:1) East | Cost: 11, (3:2) SouthEast | Cost: 5, (2:2) South | Cost: 7, (1:2) South | Cost: 9, (0:3) SouthEast | Cost: 6, (0:4) East | Cost: 9, (1:3) NorthWest | Cost: 11, (1:4) East | Cost: 10, (2:3) NorthWest | Cost: 6, (2:4) East | Cost: 5, (3:3) NorthWest | Cost: 4, (4:2) NorthWest | Cost: 6, (4:3) East | Cost: 9, (4:4) East | Cost: 4], [(1:0) North | Cost: 8, (0:1) SouthEast | Cost: 9, (0:2) East | Cost: 6, (1:1) NorthWest | Cost: 4, (2:0) NorthWest | Cost: 8, (2:1) East | Cost: 7, (3:0) NorthWest | Cost: 7, (3:1) East | Cost: 11, (4:0) NorthWest | Cost: 4, (4:1) East | Cost: 11, (3:2) SouthEast | Cost: 5, (2:2) South | Cost: 7, (1:2) South | Cost: 9, (0:3) SouthEast | Cost: 6, (0:4) East | Cost: 9, (1:3) NorthWest | Cost: 11, (1:4) East | Cost: 10, (2:3) NorthWest | Cost: 6, (2:4) East | Cost: 5, (3:3) NorthWest | Cost: 4, (4:2) NorthWest | Cost: 6, (4:3) East | Cost: 9, (3:4) SouthEast | Cost: 7]]
+
+Simulating path: 
+[(1:0) North | Cost: 8, (0:1) SouthEast | Cost: 9, (0:2) East | Cost: 6, (1:1) NorthWest | Cost: 4, (2:0) NorthWest | Cost: 8, (2:1) East | Cost: 7, (3:0) NorthWest | Cost: 7, (3:1) East | Cost: 11, (4:0) NorthWest | Cost: 4, (4:1) East | Cost: 11, (3:2) SouthEast | Cost: 5, (2:2) South | Cost: 7, (1:2) South | Cost: 9, (0:3) SouthEast | Cost: 6, (0:4) East | Cost: 9, (1:3) NorthWest | Cost: 11, (1:4) East | Cost: 10, (2:3) NorthWest | Cost: 6, (2:4) East | Cost: 5, (3:3) NorthWest | Cost: 4, (4:2) NorthWest | Cost: 6, (4:3) East | Cost: 9, (3:4) SouthEast | Cost: 7]
+
+Current path position: 
+Current: (3:4) SouthEast | Cost: 169
+Destination: (4:4) NOP | Cost: 0
+Map:
+  x|y: 0 1 2 3 4
+
+  0:   8 6 5 5 8
+  1:   8 1 9 8 7
+  2:   8 4 6 3 2
+  3:   4 8 4 1 [92m6[0m
+  4:   1 8 6 6 [91m4[0m
+
+
+new paths added to frontier: 
+[[(1:0) North | Cost: 8, (0:1) SouthEast | Cost: 9, (0:2) East | Cost: 6, (1:1) NorthWest | Cost: 4, (2:0) NorthWest | Cost: 8, (2:1) East | Cost: 7, (3:0) NorthWest | Cost: 7, (3:1) East | Cost: 11, (4:0) NorthWest | Cost: 4, (4:1) East | Cost: 11, (3:2) SouthEast | Cost: 5, (2:2) South | Cost: 7, (1:2) South | Cost: 9, (0:3) SouthEast | Cost: 6, (0:4) East | Cost: 9, (1:3) NorthWest | Cost: 11, (1:4) East | Cost: 10, (2:3) NorthWest | Cost: 6, (2:4) East | Cost: 5, (3:3) NorthWest | Cost: 4, (4:2) NorthWest | Cost: 6, (4:3) East | Cost: 9, (3:4) SouthEast | Cost: 7, (4:4) North | Cost: 7]]
+
+Simulating path: 
+[(1:0) North | Cost: 8, (0:1) SouthEast | Cost: 9, (0:2) East | Cost: 6, (1:1) NorthWest | Cost: 4, (2:0) NorthWest | Cost: 8, (2:1) East | Cost: 7, (3:0) NorthWest | Cost: 7, (3:1) East | Cost: 11, (4:0) NorthWest | Cost: 4, (4:1) East | Cost: 11, (3:2) SouthEast | Cost: 5, (2:2) South | Cost: 7, (1:2) South | Cost: 9, (0:3) SouthEast | Cost: 6, (0:4) East | Cost: 9, (1:3) NorthWest | Cost: 11, (1:4) East | Cost: 10, (2:3) NorthWest | Cost: 6, (2:4) East | Cost: 5, (3:3) NorthWest | Cost: 4, (4:2) NorthWest | Cost: 6, (4:3) East | Cost: 9, (3:4) SouthEast | Cost: 7, (4:4) North | Cost: 7]
+
+Current path position: 
+Current: (4:4) North | Cost: 176
+Destination: (4:4) NOP | Cost: 0
+Map:
+  x|y: 0 1 2 3 4
+
+  0:   8 6 5 5 8
+  1:   8 1 9 8 7
+  2:   8 4 6 3 2
+  3:   4 8 4 1 6
+  4:   1 8 6 6 [92m4[0m
+
+
+finish
+Path found: 
+[(1:0) North | Cost: 8, (0:1) SouthEast | Cost: 9, (0:2) East | Cost: 6, (1:1) NorthWest | Cost: 4, (2:0) NorthWest | Cost: 8, (2:1) East | Cost: 7, (3:0) NorthWest | Cost: 7, (3:1) East | Cost: 11, (4:0) NorthWest | Cost: 4, (4:1) East | Cost: 11, (3:2) SouthEast | Cost: 5, (2:2) South | Cost: 7, (1:2) South | Cost: 9, (0:3) SouthEast | Cost: 6, (0:4) East | Cost: 9, (1:3) NorthWest | Cost: 11, (1:4) East | Cost: 10, (2:3) NorthWest | Cost: 6, (2:4) East | Cost: 5, (3:3) NorthWest | Cost: 4, (4:2) NorthWest | Cost: 6, (4:3) East | Cost: 9, (3:4) SouthEast | Cost: 7, (4:4) North | Cost: 7]
+with total cost: 176
+Deepest depth explored: 24
+depth of final path: 24
+paths left in the frontier: 48
+ammount of nodes explored: 24

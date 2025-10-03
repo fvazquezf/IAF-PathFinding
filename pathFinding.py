@@ -1,5 +1,6 @@
 from collections import deque
 import heapq
+import sys
 
 # read map from txt file following predetermined pattern
 def parseExample(path):
@@ -144,7 +145,7 @@ def buildPath(previous, others):
     return result
 
 # generate tuple with the cost to arriving to the last position in the path and the whole path.
-def buildPathWithWeights(previous, others):
+def buildPathWithWeights(previous, others, map):
     result = []
     for node in others:
         partial = previous.copy()
@@ -154,6 +155,8 @@ def buildPathWithWeights(previous, others):
         cost = 0
         for nodePath in partial:
             cost += nodePath.cost
+        # cost += ((map.end.x - node.x)**2 + (map.end.y - node.y)**2)**0.5
+        cost += ((map.end.x - node.x) + (map.end.y - node.y))
         partial = (cost, partial)
         result.append(partial)
     return result
@@ -206,6 +209,7 @@ def depthFirstSearch(path):
 
     frontier = list(following[::-1])  # FIFO queue
     count = 0
+    deepestDepth = 0
     while frontier:
         count += 1
         node = frontier.pop()
@@ -217,7 +221,7 @@ def depthFirstSearch(path):
         testing = testMap.copy()
         for step in node: 
             testing.move(step.orientation)
-
+        deepestDepth = len(node) if len(node) > deepestDepth else deepestDepth
         print("Current path position: ")
         print(testing)
         print()
@@ -225,6 +229,8 @@ def depthFirstSearch(path):
             print("finish\nPath found: ")
             print(node)
             print("with total cost: " + str(testing.current.cost))
+            print("Deepest depth explored: " + str(deepestDepth))
+            print("depth of final path: " + str(len(node)))
             print("paths left in the frontier: " + str(len(frontier)))
             print("ammount of nodes explored: " + str(count))
             break
@@ -242,9 +248,10 @@ def aStarSearch(path):
     print(testMap)
 
     following = testMap.expand()
-    following = buildPathWithWeights([], following)
+    following = buildPathWithWeights([], following, testMap)
     heapq.heapify(following)
     frontier = following  # priority queue
+    deepestDepth = 0
     count = 0
     while frontier:
         count += 1
@@ -257,6 +264,7 @@ def aStarSearch(path):
         testing = testMap.copy()
         for step in node: 
             testing.move(step.orientation)
+        deepestDepth = len(node) if len(node) > deepestDepth else deepestDepth
 
         print("Current path position: ")
         print(testing)
@@ -266,10 +274,12 @@ def aStarSearch(path):
             print(node)
             print("with total cost: " + str(testing.current.cost))
             print("paths left in the frontier: " + str(len(frontier)))
+            print("Deepest depth explored: " + str(deepestDepth))
+            print("depth of final path: " + str(len(node)))
             print("ammount of nodes explored: " + str(count))
             break
         temp = testing.expand()
-        following = buildPathWithWeights(node, temp)
+        following = buildPathWithWeights(node, temp, testing)
         print("new paths added to frontier: ")
         print(following)
         print()
@@ -277,5 +287,18 @@ def aStarSearch(path):
             heapq.heappush(frontier, value)
     return
 
+def main(args):
+    # args will contain the command-line arguments (excluding script name)
+    if not args:
+        print("No arguments provided.")
+        return
+    if args[0] == "breath":
+        breathFirstSearch(args[1])
+    if args[0] == "depth":
+        depthFirstSearch(args[1])
+    if args[0] == "astar":
+        aStarSearch(args[1])
 
-aStarSearch("./exampleMap.txt")
+if __name__ == "__main__":
+    # sys.argv[0] is the script name, so we pass everything after it
+    main(sys.argv[1:])

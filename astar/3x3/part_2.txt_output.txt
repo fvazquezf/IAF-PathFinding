@@ -1,0 +1,82 @@
+Current: (0:0) North | Cost: 0
+Destination: (2:2) NOP | Cost: 0
+Map:
+  x|y: 0 1 2
+
+  0:   [92m3[0m 8 5
+  1:   4 7 5
+  2:   2 6 [91m1[0m
+
+Simulating path: 
+[(1:0) North | Cost: 4]
+
+Current path position: 
+Current: (1:0) North | Cost: 4
+Destination: (2:2) NOP | Cost: 0
+Map:
+  x|y: 0 1 2
+
+  0:   3 8 5
+  1:   [92m4[0m 7 5
+  2:   2 6 [91m1[0m
+
+
+new paths added to frontier: 
+[(8, [(1:0) North | Cost: 4, (2:0) North | Cost: 2]), (12, [(1:0) North | Cost: 4, (2:1) NorthEast | Cost: 7]), (15, [(1:0) North | Cost: 4, (1:1) East | Cost: 9]), (18, [(1:0) North | Cost: 4, (0:1) SouthEast | Cost: 11])]
+
+Simulating path: 
+[(1:0) North | Cost: 4, (2:0) North | Cost: 2]
+
+Current path position: 
+Current: (2:0) North | Cost: 6
+Destination: (2:2) NOP | Cost: 0
+Map:
+  x|y: 0 1 2
+
+  0:   3 8 5
+  1:   4 7 5
+  2:   [92m2[0m 6 [91m1[0m
+
+
+new paths added to frontier: 
+[(15, [(1:0) North | Cost: 4, (2:0) North | Cost: 2, (2:1) East | Cost: 8]), (18, [(1:0) North | Cost: 4, (2:0) North | Cost: 2, (1:1) SouthEast | Cost: 10])]
+
+Simulating path: 
+[(1:1) NorthEast | Cost: 8]
+
+Current path position: 
+Current: (1:1) NorthEast | Cost: 8
+Destination: (2:2) NOP | Cost: 0
+Map:
+  x|y: 0 1 2
+
+  0:   3 8 5
+  1:   4 [92m7[0m 5
+  2:   2 6 [91m1[0m
+
+
+new paths added to frontier: 
+[(16, [(1:1) NorthEast | Cost: 8, (2:1) North | Cost: 7]), (9, [(1:1) NorthEast | Cost: 8, (2:2) NorthEast | Cost: 1]), (15, [(1:1) NorthEast | Cost: 8, (1:2) East | Cost: 6]), (17, [(1:1) NorthEast | Cost: 8, (0:2) SouthEast | Cost: 7]), (22, [(1:1) NorthEast | Cost: 8, (0:1) South | Cost: 11]), (18, [(1:1) NorthEast | Cost: 8, (1:0) West | Cost: 7]), (14, [(1:1) NorthEast | Cost: 8, (2:0) NorthWest | Cost: 4])]
+
+Simulating path: 
+[(1:1) NorthEast | Cost: 8, (2:2) NorthEast | Cost: 1]
+
+Current path position: 
+Current: (2:2) NorthEast | Cost: 9
+Destination: (2:2) NOP | Cost: 0
+Map:
+  x|y: 0 1 2
+
+  0:   3 8 5
+  1:   4 7 5
+  2:   2 6 [92m1[0m
+
+
+finish
+Path found: 
+[(1:1) NorthEast | Cost: 8, (2:2) NorthEast | Cost: 1]
+with total cost: 9
+paths left in the frontier: 12
+Deepest depth explored: 2
+depth of final path: 2
+ammount of nodes explored: 4
